@@ -1,0 +1,120 @@
+body {
+    font-family: 'Nunito', sans-serif;
+}
+
+nav a {
+    padding: 1.5rem;
+}
+
+.container-fluid{
+     padding: 0 !important;
+}
+
+.footer, nav {
+    background: #2c3e50;
+    background: linear-gradient(to right, #4ca1af, #2c3e50);
+    /* color: #fff; */
+    padding: 30px 0;
+  }
+
+.nav-item{
+  padding: 0px 60px;
+}
+
+  .footer .social-icons a {
+    color: #fff;
+    margin-right: 15px;
+  }
+
+  .footer .social-icons a:hover {
+    color: #ffd700; 
+  }
+
+  a{
+    text-decoration: none !important;
+  }
+
+  li{
+    list-style-type: none;
+    border: 1px solid;
+    border-radius: 5px;
+    background-color: antiquewhite;
+    padding: 10px;
+    margin: 5px;
+  }
+
+  li:hover{
+     background-color: rgb(8, 154, 165);
+     cursor: pointer;
+  }
+
+  form{
+    background-color: antiquewhite;
+    border-radius: 5px;
+  }
+
+  label{
+    padding: 5px;
+  }
+
+  .form-error{
+    font-size: .3rem;
+    color: red;
+    margin: 0;
+  }
+
+  .form-group{
+    padding: 5px 80px;
+  }
+
+  .btn{
+    margin-bottom: 22px;
+  }
+
+/* Cookie Popup CSS */
+.cookie-popup {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #ffffff;
+    color: #000000;
+    border-radius: 8px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 300px;
+    width: calc(100% - 40px);
+    z-index: 9999;
+}
+
+.cookie-content {
+    text-align: center;
+}
+
+.cookie-content p {
+    margin: 0;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.accept-button,
+.decline-button {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.accept-button {
+    background-color: #4caf50;
+    color: #ffffff;
+}
+
+.decline-button {
+    background-color: #f44336;
+    color: #ffffff;
+    margin-left: 10px;
+}
+
+
